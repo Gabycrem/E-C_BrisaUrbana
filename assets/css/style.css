@@ -158,8 +158,30 @@ header {
     border: 1px solid white;
 }
 
+.featured-products{
+    padding: 1rem 0;
+}
+
 /* eliminar cuando edite las cards */
+.cards-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.card{
+    border: 2px solid salmon;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.card h4{
+    font-size: 2.5rem;
+}
 .card img{
+    border-radius: 25px;
     width: 300px;
 }
 
