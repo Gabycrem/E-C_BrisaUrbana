@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Brisa Urbana: Principal</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="title">Brisa Urbana</h1>
+            <a href="#"><img class="logo" src="./assets/img/logo.png" alt="mi logo"></a>
+        </div>
+        <!-- Mi menú hamburguesa sin JS -->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx  bx-menu' id="menu-icon" ></div>
+        </label>
+
+        <nav class="nav">
+            <ul class="navlist">
+                <li class="navlist-item"><a href="#">Principal</a></li>
+                <li class="navlist-item"><a href="./pages/about-us.html">Nosotros</a></li>
+                <li class="navlist-item"><a href="./pages/products.html">Productos</a></li>
+                <li class="navlist-item"><a href="./pages/service.html">Servicios</a></li>
+                <li class="navlist-item"><a href="./pages/contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home">
+        <section class="hero">
+            <h2>Bienvenidos a Brisa Urbana</h2>
+            <p>Productos y servicios pensados para acompañar tu día a día con calidad, estilo y confianza.</p>
+        </section>
+        <div class="scroll-down">
+            <a href="#">
+                <i class="ri-arrow-down-s-fill"></i>
+            </a> 
+        </div>
+        <section class="reasons hero">
+            <h2>¿Por qué elegirnos?</h2>
+            <ul>
+                <li>Calidad garantizada en cada producto</li>
+                <li>Envíos rápidos en todo el país</li>
+                <li>Opciones personalizadas y exclusivas</li>
+                <li>Atención cercana y confiable</li>
+            </ul>
+        </section>
+        <section class="featured-products hero">
+            <h2>Algunos de nuestros productos</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/img/vela.jpg" alt="Vela Aromática">
+                    <h4 class="card-title">Vela Aromática Premium</h4>
+                    <p class="card-description">Perfuma y ambienta tus espacios con estilo.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/mochila.jpg" alt="Mochila Urbana">
+                    <h4 class="card-title">Mochila Urbana</h4>
+                    <p class="card-description">Diseño moderno, práctica e impermeable.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/kit-biniestar.png" alt="Kit de Bienestar">
+                    <h4 class="card-title">Kit de Bienestar</h4>
+                    <p class="card-description">Incluye velas, aceites esenciales y difusor.</p>
+                </div>
+            </div>
+            <!-- <a class="btn" href="./pages/products.html">Ver más productos</a> -->
+        </section>
+    </main>
+    <footer>
+        <nav class="nav">
+            <ul class="navlist-footer">
+                <li class="navlist-footer-items"><a href="#">Facebook</a></li>
+                <li class="navlist-footer-items"><a href="#">Instagram</a></li>
+                <li class="navlist-footer-items"><a href="#">WhatsApp</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.products {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4a3c5c 0%, #5a3f70 25%, #1a0d1f 75%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15% 5% 0;
+    align-items: center;
+    justify-items: center;
+    
+}

@@ -1,0 +1,62 @@
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 3.5rem;
+  padding: 12px 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  background: none;
+}
+
+.form-group label {
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  color: #777;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+/* Cuando el input está en focus o tiene texto */
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+  top: -8px;
+  left: 10px;
+  font-size: 14px;
+  color: #c79dd7; /* tu tono pastel */
+  background: #fff; /* para que no se superponga el borde */
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.form-group textarea{
+    background-color: #5a3f7000;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    outline: none;
+    padding: 1.1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-btn-send{
+    align-self: center;
+    width: 50%;
+    border: 1px solid #c79dd7;
+    border-radius: 8px;
+    background-color: #5a3f70;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1rem;
+}

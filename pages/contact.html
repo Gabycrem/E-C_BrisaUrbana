@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <title>Brisa Urbana: Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="title">Brisa Urbana</h1>
+            <a href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="mi logo"></a>
+        </div>
+        
+        <!-- Mi menú hamburguesa sin JS -->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx  bx-menu' id="menu-icon" ></div>
+        </label>
+
+        <nav class="nav">
+            <ul class="navlist">
+                <li class="navlist-item"><a href="../index.html">Princial</a></li>
+                <li class="navlist-item"><a href="./about-us.html">Nosotros</a></li>
+                <li class="navlist-item"><a href="./products.html">Productos</a></li>
+                <li class="navlist-item"><a href="./service.html">Servicios</a></li>
+                <li class="navlist-item"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <section class="hero">
+            <h2>Dejanos tu mensaje</h2>
+            <form action="https://formspree.io/f/mrbykval" method="post" autocomplete="off">
+
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder=" " autocomplete="nope" required>
+                    <label for="name">Nombre:</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder=" " required>
+                    <label for="email">Email:</label>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" rows="10" cols="30" placeholder=" " required></textarea>
+                    <label for="message">Tu mensaje:</label>
+                </div>
+
+
+                <button class="contact-btn-send" type="submit">Enviar</button>
+
+            </form>
+        </section>
+        
+        
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2 class="title">Brisa Urbana</h2>
+                <p>Aromas que transforman tus espacios en momentos únicos.</p>   
+            </div>
+            <div class="footer-contact">
+                <h2 class="title">Contacto</h2>
+                <ul>
+                    <li>Email: <a href="mailto:contacto@brisaurbana.com">contacto@brisaurbana.com</a> </li>
+                    <li>Tel: <a href="tel:+5492901123456">+54 9 2901 123456</a></li>
+                    <li>Ushuaia, Tierra del Fuego AeIAS - Argentina</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <nav class="nav">
+                    <h2 class="title">Redes Sociales</h2>
+                    <ul class="navlist-footer">
+                        <li class="navlist-footer-items"><a href="#">Facebook</a></li>
+                        <li class="navlist-footer-items"><a href="#">Instagram</a></li>
+                        <li class="navlist-footer-items"><a href="#">WhatsApp</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Brisa Urbana - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
