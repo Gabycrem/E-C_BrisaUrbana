@@ -120,21 +120,6 @@ header {
     font-weight: bold;
 }
 
-/* Acá comienza la magia del menú hamburgesa sin JS*/
-#menu-icon {
-    display: none;
-    font-size: 2rem;
-    z-index: 101;
-    cursor: pointer;
-}
-
-#menu-toggle{
-    display: none;
-}
-
-.menu-icon-action{
-    display: none;
-}
 
 /*-------------------*/
 
@@ -146,26 +131,7 @@ header {
     color: aliceblue;
 }
 
-.scroll-down {
-    position: absolute;
-    bottom: 7%;
-    right: 5%;
-}
 
-.scroll-down i{
-    display: block;
-    font-size: 2rem;
-    padding: 12px;
-    background-color: #1a0d1f;
-    border-radius: 50%;
-    transition: all .5s ease;
-}
-
-.scroll-down i:hover{
-    transform: scale(1.2);
-    background-color: transparent;
-    border: 1px solid white;
-}
 
 .featured-products{
     padding: 1rem 0;
