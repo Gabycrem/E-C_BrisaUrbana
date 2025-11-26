@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Vela Aromática Vainilla & Coco",
+    "description": "Aroma cálido y dulce para crear un ambiente relajante.",
+    "price": 5200,
+    "image": "../assets/img/product-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vela de Lavanda Premium",
+    "description": "Ideal para relajación y momentos de descanso profundo.",
+    "price": 5800,
+    "image": "../assets/img/product-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vela Citrus Fresh",
+    "description": "Mezcla fresca de naranja y limón para energizar tus espacios.",
+    "price": 4900,
+    "image": "../assets/img/product-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Difusor de Varillas Bamboo",
+    "description": "Aromatiza tus ambientes de forma constante y natural.",
+    "price": 6700,
+    "image": "../assets/img/product-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Difusor Floral Dreams",
+    "description": "Fragancia floral suave con notas rosadas y jazmín.",
+    "price": 6900,
+    "image": "../assets/img/product-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kit de Bienestar Esencial",
+    "description": "Incluye vela, difusor y aceite esencial.",
+    "price": 14900,
+    "image": "../assets/img/product-6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Aceite Esencial Lavanda",
+    "description": "100% natural, ideal para difusores y masajes.",
+    "price": 4500,
+    "image": "../assets/img/product-7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Aceite Esencial Menta",
+    "description": "Energizante y refrescante para el hogar.",
+    "price": 4300,
+    "image": "../assets/img/product-8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Aromatizante Textil Soft Cotton",
+    "description": "Perfuma ropa y telas con un aroma limpio y suave.",
+    "price": 3800,
+    "image": "../assets/img/product-9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Aromatizante Textil Praliné y Rosa China",
+    "description": "Fragancia romántica y duradera.",
+    "price": 3900,
+    "image": "../assets/img/product-10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Vela Botánica con Flores Secas",
+    "description": "Decorativa, aromática y totalmente artesanal.",
+    "price": 6200,
+    "image": "../assets/img/product-1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mini Vela Souvenir",
+    "description": "Perfecta para eventos, bodas o detalles especiales.",
+    "price": 2100,
+    "image": "../assets/img/product-2.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Set Aromático Relax Total",
+    "description": "Incluye vela mediana, sahumerios y aceite esencial.",
+    "price": 8900,
+    "image": "../assets/img/product-6.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Sahumerios Artesanales Palo Santo",
+    "description": "Purificación energética y aroma intenso.",
+    "price": 3500,
+    "image": "../assets/img/product-14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sahumerios Jazmín & Rosas",
+    "description": "Aroma floral tradicional para perfumar tus ambientes.",
+    "price": 3400,
+    "image": "../assets/img/product-15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Humidificador LED Premium",
+    "description": "Iluminación cálida y vaporización ultrapura.",
+    "price": 12900,
+    "image": "../assets/img/product-16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Wax Melts Corazón Vainilla & Coco",
+    "description": "Tabletas en forma de corazón, aroma cálido de vainilla y coco para derretir en hornillo.",
+    "price": 5200,
+    "image": "../assets/img/product-17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Taza Cerámica Handmade",
+    "description": "Hecha a mano, perfecta para tus rituales diarios.",
+    "price": 5600,
+    "image": "../assets/img/product-18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Porta Sahumerios de Madera",
+    "description": "Diseño rústico y minimalista.",
+    "price": 3100,
+    "image": "../assets/img/product-19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Caja Aromática Deluxe",
+    "description": "Incluye 3 velas, 2 aceites esenciales y un difusor.",
+    "price": 24900,
+    "image": "../assets/img/product-20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Wax Melts Estrella Citrus Fresh",
+    "description": "Wax melts en forma de estrella con fragancia fresca de naranja y limón.",
+    "price": 5400,
+    "image": "../assets/img/product-21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Wax Melts Botánicos Lavanda",
+    "description": "Piezas botánicas con flores secas y aroma a lavanda para un ambiente relajante.",
+    "price": 5600,
+    "image": "../assets/img/product-22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Box Wax & Hornillo Cerámico",
+    "description": "Caja regalo con hornillo cerámico + set de wax melts surtidos, lista para regalar.",
+    "price": 18900,
+    "image": "../assets/img/product-23.jpg"
+  }
+]

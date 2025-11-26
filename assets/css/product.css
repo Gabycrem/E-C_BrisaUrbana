@@ -8,6 +8,10 @@
     position: relative;
     padding: 15% 5% 0;
     align-items: center;
-    justify-items: center;
-    
+    justify-items: center;   
+}
+
+.products h2{
+    font-size: 72px;
+    padding-bottom: 7%;
 }

@@ -10,7 +10,7 @@
     <title>Brisa Urbana: Productos</title>
 </head>
 
-<body>
+<body data-page="products">
     <header>
         <div class="logo-container">
             <h1 class="title">Brisa Urbana</h1>
@@ -32,26 +32,16 @@
                 <li class="navlist-item"><a href="./contact.html">Contacto</a></li>
             </ul>
         </nav>
+        <button id="cart-button" class="cart-icon">
+            <i class='bx bx-cart'></i>
+            <span id="cart-count">0</span>
+        </button>
     </header>
     <main class="products">
-        <section class="cards-container hero">
-            <div class="card">
-                <img src="../assets/img/vela.jpg" alt="Vela Aromática">
-                <h4 class="card-title">Vela Aromática Premium</h4>
-                <p class="card-description">Perfuma y ambienta tus espacios con estilo.</p>
-            </div>
-            <div class="card">
-                <img src="../assets/img/mochila.jpg" alt="Mochila Urbana">
-                <h4 class="card-title">Mochila Urbana</h4>
-                <p class="card-description">Diseño moderno, práctica e impermeable.</p>
-            </div>
-            <div class="card">
-                <img src="../assets/img/kit-biniestar.png" alt="Kit de Bienestar">
-                <h4 class="card-title">Kit de Bienestar</h4>
-                <p class="card-description">Incluye velas, aceites esenciales y difusor.</p>
-            </div>
+        <h2>Nuestros Productos</h2>
+        <section class="cards-container hero" id="list-products">
+            
         </section>
-
     </main>
     <footer class="footer">
         <div class="footer-container">
@@ -82,6 +72,7 @@
             <p>© 2025 Brisa Urbana - Todos los derechos reservados</p>
         </div>
     </footer>
+    <script src="../assets/js/app.js"></script>
 </body>
 
 </html>
